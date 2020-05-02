@@ -1,0 +1,32 @@
+#!name=Task - All in one By nzw9314
+#!desc=该模块适用于定时签到:集成全部: NobyDa、Chavy以及个人收集常用签到脚本。建议本地安装以便自定义修改签到时间。
+#!system=ios
+
+# Task配置 By nzw9314
+# GitHub主页(https://github.com/nzw9314)
+# TG通知频道 (https://t.me/nzw9314News)
+# 定时脚本
+
+[Script]
+# > 每日一句+ 蚂蚁森林收能量
+每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
+# > 京东
+京东 = type=cron,cronexp=0 5 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+# 百度签到
+# 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
+百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
+# 趣头条
+# 打开 APP 进入签到:  `右上角` > `签到`
+# 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
+# 首页金币奖励:此Cookie在首页的推荐中随机出现,随机获取,并不一定会出现。
+趣头条 = type=cron,cronexp=0 2 6-23/1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,script-update-interval=0
+# 米读
+# 打开 APP 进入`我的` -> `疯狂摇摇乐`,系统提示: `签到:获取Cookie: 成功`
+# 阅读时长获取Cookie:打开 APP 选取文章阅读， `书城` > `任意文章阅读` 等到提示获取Cookie成功即可
+米读签到 = type=cron,cronexp=0 0 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduSign.js,script-update-interval=0
+米读阅读 = type=cron,cronexp=0=*/30 * * * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/miduRead.js,script-update-interval=0
+# > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
+#打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
+活动抽奖 = type=cron,cronexp=0 30 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
+# > 爱奇艺
+爱奇艺 = type=cron,cronexp=0 0 1 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js,script-update-interval=0
