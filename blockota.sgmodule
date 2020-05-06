@@ -1,0 +1,12 @@
+#!name = blockota
+#!desc = 屏蔽apple系统升级
+
+[Rule]
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,gdmf.apple.com.akadns.net,REJECT
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,mesu-cdn.apple.com.akadns.net,REJECT
+DOMAIN,mesu-cdn.origin-apple.com.akadns.net,REJECT
+DOMAIN,mesu.g.aaplimg.com,REJECT
+DOMAIN,appldnld.apple.com,REJECT
+DOMAIN,appldnld.apple.com.akadns.net,REJECT
