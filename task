@@ -38,3 +38,7 @@
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
 微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+# > 新浪新闻(By @Macsuny)
+# 1.打开app,点击”我的“=>”签到“，获取第一个Cookie，通知获取信息成功
+# 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
+新浪新闻 = type=cron,cronexp=0 0 1 * * *,script-path=Script/txnews.jshttps://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
