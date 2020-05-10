@@ -2,6 +2,7 @@
 #!desc = textnow去广告
 
 [Rule]
+DOMAIN-SUFFIX, googleapis.com, US高级
 DOMAIN-SUFFIX,textnow.me,US高级
 DOMAIN,api.leanplum.com,US高级
 DOMAIN-SUFFIX,amazonaws.com,US高级
