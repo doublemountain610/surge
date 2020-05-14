@@ -8,7 +8,7 @@
 中青看点𝘾𝙤𝙤𝙠𝙞𝙚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/Game\/GameVideoReward,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 中青看点𝘾𝙤𝙤𝙠𝙞𝙚 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, requires-body=true
 # > 中青看点极速版
-中青看点𝙏𝙖𝙨𝙠 = type=cron,cronexp="*/30 * 1-3 * * *",script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+中青看点𝙏𝙖𝙨𝙠 = type=cron,cronexp="*/30 * 8-11 * * *",script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% kd.youth.cn, ios.baertt.com
