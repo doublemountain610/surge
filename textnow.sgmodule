@@ -2,10 +2,10 @@
 #!desc = textnow去广告
 
 [Rule]
-DOMAIN-SUFFIX, googleapis.com, 美国BGP
-DOMAIN-SUFFIX,textnow.me,美国BGP
-DOMAIN,api.leanplum.com,美国BGP
-DOMAIN-SUFFIX,amazonaws.com,美国BGP
+DOMAIN-SUFFIX, googleapis.com, 美国CN2
+DOMAIN-SUFFIX,textnow.me,美国CN2
+DOMAIN,api.leanplum.com,美国CN2
+DOMAIN-SUFFIX,amazonaws.com,美国CN2
 
 [Script]
 textnow.js = requires-body=1,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/langkhach/Textnow.js,type=http-response,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*
