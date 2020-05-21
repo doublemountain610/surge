@@ -11,10 +11,10 @@
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 # > 京东
-京东 = type=cron,cronexp=0 30 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
+京东 = type=cron,cronexp=0 30 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,script-update-interval=0
 # 百度签到
 # 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
-百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,script-update-interval=0
+百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true,script-update-interval=0
 # 趣头条
 # 打开 APP 进入签到:  `右上角` > `签到`
 # 阅读篇数获取Cookie:`小视频`中播放一段时间视频即可获取,具体的阅读篇数奖励请到应用内手动点击
@@ -22,23 +22,23 @@
 趣头条 = type=cron,cronexp=0 2 6-23/1 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js,script-update-interval=0
 # 人人视频
 # 打开 APP, 访问下`个人中心`
-人人视频 = type=cron,cronexp=15 10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+人人视频 = type=cron,cronexp=15 10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true,script-update-interval=0
 # > 微信小程序-活动抽奖 (By @makexp & @zZPiglet)
 #打开微信小程序 进入“活动抽奖”，手动签到一次或点击“已签到”
-活动抽奖 = type=cron,cronexp=0 0 1 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js
+活动抽奖 = type=cron,cronexp=0 0 1 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/WeChatLottery_new.js,wake-system=true
 # > 爱奇艺
-爱奇艺 = type=cron,cronexp=0 30 1 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js,script-update-interval=0
-# > 中青看点极速版 (By @Macsuny)
-中青看点极速版 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
+爱奇艺 = type=cron,cronexp=0 30 1 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/iQIYI-DailyBonus/iQIYI_DailyBonus.js,wake-system=true,script-update-interval=0
+#中青看点极速版 (By @Macsuny)
+#中青看点极速版 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
 # > 快手极速版 (By @Macsuny)
 # APP登陆账号后，点击’钱包‘
-快手极速版 = type=cron,cronexp=0 0 6 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,script-update-interval=0
+快手极速版 = type=cron,cronexp=0 0 6 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js,wake-system=true,script-update-interval=0
 # > 微博 & 微博钱包 (By @Macsuny)
 #1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 #2.打开微博钱包点击签到，获取Cookie，
 #3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,wake-system=true,script-update-interval=0
 # > 新浪新闻(By @Macsuny)
 # 1.打开app,点击”我的“=>”签到“，获取第一个Cookie，通知获取信息成功
 # 2.在未签到情况下，先禁用第一条Cookie链接，然后再次进入签到，通知获取签到Cookie成功
-新浪新闻 = type=cron,cronexp=0 0 1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js
+新浪新闻 = type=cron,cronexp=0 0 1 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/sinanews.js,wake-system=true
