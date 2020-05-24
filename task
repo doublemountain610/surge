@@ -11,7 +11,7 @@
 # > 每日一句+ 蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=0 30 7 * * *
 # > 京东
-京东 = type=cron,cronexp=0 30 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,script-update-interval=0
+京东 = type=cron,cronexp=0 5,6,7 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,script-update-interval=0
 # 百度签到
 # 先登录,浏览器访问一下: https://tieba.baidu.com 或者 https://tieba.baidu.com/index/
 百度贴吧 = type=cron,cronexp="0 0,1,2 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true,script-update-interval=0
