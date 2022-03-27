@@ -1,5 +1,5 @@
-#!name = profile add
-#!desc = 临时添加规则以解决托管配置不能编辑的问题
+!name = profile add
+!desc = 临时添加规则以解决托管配置不能编辑的问题
 
 [Rule]
 # istatmenus weather
