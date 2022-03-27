@@ -1,0 +1,4 @@
+[Rule]
+
+# istatmenus weather
+DOMAIN-SUFFIX,weather.bjango.com,DIRECT
