@@ -2,4 +2,9 @@
 #!desc = 临时添加规则以解决托管配置不能编辑的问题
 
 [Rule]
+<<<<<<< HEAD
 DOMAIN-SUFFIX,davidliu0610.synology.me,DIRECT
+=======
+# > YouTube 去片头广告
+URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT-TINYGIF
+>>>>>>> beea9884ea3eb0212570c188d0ef6dbaf630bdb6
