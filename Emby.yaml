@@ -1,0 +1,34 @@
+payload:
+# > 卡戎影视
+- DOMAIN,play.charontv.com
+
+# AGA公益服(中国电信可直连观看)
+- DOMAIN,emby.plusmedia.site
+
+# CF公益服(仅限挂代理观看)
+- DOMAIN,emby-cf.plusmedia.site
+
+# 备用服
+- DOMAIN,emby.xeton.dev
+- DOMAIN,jellyfin.xeton.dev
+- DOMAIN,movie.xeton.dev
+- DOMAIN,servers.xeton.dev
+
+#佩奇专属服
+- DOMAIN,emby.nexitally.com
+
+# Skicat专属服
+- DOMAIN,https://skicat.tv
+
+# Godetia专属服1（猫熊）
+- DOMAIN,emby.ssltd.xyz
+
+# Godetia专属服2（Porn）
+- DOMAIN,pornemby.ssltd.xyz
+
+# MisakaF公益服（可直连）
+- DOMAIN,emby.misakaf.xyz
+# MisakaF公益服（需代理）
+- DOMAIN,embygy.misakaf.xyz  #广州移动中转
+- DOMAIN,embyaz.misakaf.xyz  #az hk-de内网中转
+
