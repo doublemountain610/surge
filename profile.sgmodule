@@ -1,4 +1,4 @@
-#!name = profile add
+#!name = profile add for imac
 #!desc = 临时添加规则以解决托管配置不能编辑的问题
 
 [Rule]
@@ -6,3 +6,6 @@ DOMAIN-SUFFIX,davidliu0610.synology.me,DIRECT
 
 # > YouTube 去片头广告
 URL-REGEX,^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier),REJECT-TINYGIF
+
+[Host]
+davidliu0610.synology.me = 10.0.0.18
